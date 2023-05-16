@@ -1,0 +1,12 @@
+.selected.MuiTypography-root {
+  color: #452bdc;
+  font-weight: bold;
+  border-bottom: #452bdc solid 3px;
+}
+.image {
+  width: 5vw;
+  max-width: 70px;
+  height: 5vw;
+  max-height: 70px;
+  border-radius: 50%;
+}
