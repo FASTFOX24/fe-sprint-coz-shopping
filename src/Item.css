@@ -1,0 +1,20 @@
+.type_all.MuiTypography-root {
+  font-weight: bold;
+}
+.type_Product {
+  color: #452bdc;
+}
+.starIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 16px;
+  font-size: 2.2vw !important;
+  color: darkgrey;
+}
+.itemImage {
+  width: 21.5vw;
+  height: 16vw;
+  border-radius: 16px;
+  position: absolute;
+}
