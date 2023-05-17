@@ -1,14 +1,14 @@
-import "./App.css";
-import NavBar from "./NavBar";
+import "./CSS/App.css";
+import NavBar from "./Components/NavBar";
 import { Route, Routes } from "react-router-dom";
-import MainPage from "./MainPage";
+import MainPage from "./Page/MainPage";
 import { Box } from "@mui/material";
-import Footer from "./Footer";
-import ProductList from "./ProductList";
-import BookMark from "./BookMark";
+import Footer from "./Components/Footer";
+import ProductList from "./Page/ProductList";
 import { useSetRecoilState } from "recoil";
 import { itemData } from "./Recoil_Data";
 import { useEffect } from "react";
+import BookmarkList from "./Page/BookmarkList";
 
 function App() {
   const setItemList = useSetRecoilState(itemData);
@@ -33,7 +33,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<MainPage />} />
           <Route exact path="/product/list" element={<ProductList />} />
-          <Route exact path="/bookmark" element={<BookMark />} />
+          <Route exact path="/bookmark" element={<BookmarkList />} />
         </Routes>
       </Box>
       <footer>
